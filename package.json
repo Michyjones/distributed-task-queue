@@ -1,0 +1,28 @@
+{
+  "name": "distributed-task-queue",
+  "version": "1.0.0",
+  "description": "Production-ready distributed task queue with Redis backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node examples/basic-usage.js",
+    "dev": "nodemon examples/basic-usage.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "benchmark": "node examples/benchmark.js"
+  },
+  "keywords": [
+    "queue",
+    "distributed",
+    "redis",
+    "worker",
+    "jobs",
+    "task-queue"
+  ],
+  "author": "Michael Gitau <mike.gitau92@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Michyjones/distributed-task-queue.git"
+  }
+}
